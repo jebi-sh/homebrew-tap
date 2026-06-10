@@ -15,7 +15,7 @@ cask "jebi" do
   desc "The AI-native terminal for Mac"
   homepage "https://jebi.sh"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: ">= :monterey"
 
   app "jebi.app"
   binary "#{appdir}/jebi.app/Contents/MacOS/jebi"
