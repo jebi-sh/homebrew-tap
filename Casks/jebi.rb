@@ -1,14 +1,14 @@
 cask "jebi" do
-  version "0.1.9"
+  version "0.1.10"
 
   on_arm do
-    url "https://github.com/jebi-sh/jebi/releases/download/v0.1.9/jebi-0.1.9-arm64.dmg"
-    sha256 "99a085b2e27dbcf939e5ce0f4cac04646cb3b12a25366dc01f20302161603348"
+    url "https://github.com/jebi-sh/jebi/releases/download/v0.1.10/jebi-0.1.10-arm64.dmg"
+    sha256 "944f24684c07e07ed2dfcff03705005bdd29daa88bdee1f3376d6739905d3217"
   end
 
   on_intel do
-    url "https://github.com/jebi-sh/jebi/releases/download/v0.1.9/jebi-0.1.9-x64.dmg"
-    sha256 "eb0779dd1f6eb67d1844d555fcfbf7e4c7dac2491ea9c74e0ec1e0a9863baf8f"
+    url "https://github.com/jebi-sh/jebi/releases/download/v0.1.10/jebi-0.1.10-x64.dmg"
+    sha256 "ca7873a6d485effd0891445fee57653726f100a9262869bdf2a3506f23494997"
   end
 
   name "jebi"
