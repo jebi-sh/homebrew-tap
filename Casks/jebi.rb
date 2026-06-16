@@ -1,21 +1,15 @@
 cask "jebi" do
-  version "0.1.15"
+  version "0.1.16"
 
-  on_arm do
-    url "https://github.com/jebi-sh/jebi/releases/download/v0.1.15/jebi-0.1.15-arm64.dmg"
-    sha256 "3ceeee7aad58bb7460aec574a3e45f5022817b5ed01ef3d0711d083017197e68"
-  end
-
-  on_intel do
-    url "https://github.com/jebi-sh/jebi/releases/download/v0.1.15/jebi-0.1.15-x64.dmg"
-    sha256 "6873eac1bfaae817c69abbcdb043a892c9ba6ecf91e551e2a2f37a73b8ed3a1f"
-  end
+  url "https://github.com/jebi-sh/jebi/releases/download/v0.1.16/jebi-0.1.16-arm64.dmg"
+  sha256 "8348596a93a3131fc86093af67e3b8d1bae8b2c7f96203503c05d452cd55c69d"
 
   name "jebi"
   desc "The AI-native terminal for Mac"
   homepage "https://jebi.sh"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: ">= :sonoma"
+  depends_on arch: :arm64
 
   app "jebi.app"
   binary "#{appdir}/jebi.app/Contents/MacOS/jebi"
