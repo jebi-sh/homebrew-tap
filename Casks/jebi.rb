@@ -8,7 +8,7 @@ cask "jebi" do
   desc "The AI-native terminal for Mac"
   homepage "https://jebi.sh"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "jebi.app"
