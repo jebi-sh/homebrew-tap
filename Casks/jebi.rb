@@ -1,8 +1,8 @@
 cask "jebi" do
-  version "0.1.19"
+  version "0.1.20"
 
-  url "https://github.com/jebi-sh/jebi/releases/download/v0.1.19/jebi-0.1.19-arm64.dmg"
-  sha256 "ddfe6690f510bd7859350f730c5c99d1afd94f9f51d5f61abc74b9ade5e8e171"
+  url "https://github.com/jebi-sh/jebi/releases/download/v0.1.20/jebi-0.1.20-arm64.dmg"
+  sha256 "2f8035de780cd1d7fa7bdeca91a51d914a59277388a08fb142a0039a631b0c12"
 
   name "jebi"
   desc "The AI-native terminal for Mac"
